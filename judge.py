@@ -1,5 +1,6 @@
 import streamlit as st
 import joblib
+pip install joblib
 
 # 모델 불러오기
 model = joblib.load("text_model.pkl")
